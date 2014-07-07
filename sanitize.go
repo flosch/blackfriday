@@ -35,7 +35,7 @@ func init() {
 		// Definition lists
 		"dd", "dl", "dt",
 		
-		"video",
+		"video", "source",
 	})
 	whitelistAttrs = map[string]map[string]bool{
 		"a":   toSet([]string{"href", "title", "rel"}),
